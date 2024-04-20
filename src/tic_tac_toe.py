@@ -1,4 +1,4 @@
-# A tic-tac-toe engine supported by the GUI
+# A tic-tac-toe engine supported by the game
 class Board:
     
     def __init__(self, turn: int = 1):
@@ -13,7 +13,7 @@ class Board:
     def move(self, square: int) -> int:
         # Create a move on the board according to the turn
         square -= 1
-        if square < 1 or square > 9:
+        if square < 0 or square > 8:
             return 1 # Code 1 for invalid square index error
         
         elif self.board[square] is not None:
