@@ -8,4 +8,5 @@ git clone https://github.com/Deceptist/Tic-Tac-Toe.git
 ```
 
 After cloning the repository, just simply run 'main.py' file in the src folder!
+
 The 'tic_tac_toe.py' file contains the game logic, you can also use this file as a starting point to create your own variation of the game. The file defines classes and functions for managing the game board, player turns, and checking for win conditions!
